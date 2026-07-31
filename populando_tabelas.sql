@@ -1,6 +1,5 @@
---Populando tabelas
+--populando tabelas
 
-select * from categoria;
 insert into categoria (nome_categoria)
 values
 ('Jardinagem'),
@@ -10,8 +9,8 @@ values
 ('Roupas'),
 ('Games');
 
-select * from produto;
-insert into produto (nome_produto, descricao, preco, estoque, id_categoria)
+
+inser into produto (nome, descricao, preco, estoque, id_categoria)
 values
 ('Regador', 'Regador tamanho unico para jardinagem', 50.00, 10, 1),
 ('Mouse', 'Mouse sem fio', 120.00, 50, 2),
@@ -20,7 +19,7 @@ values
 ('Vestido', 'Vestido verde', 200.00, 20, 5);
 
 
-select * from cliente;
+
 insert into cliente (nome_cliente, email, telefone)
 values
 ('João', 'joao@gmail.com', '11111-1111'),
@@ -30,7 +29,6 @@ values
 ('Pedro', 'pedro@yahoomail.com', '55555-5555');
 
 
-select * from pedido;
 insert into pedido (data_pedido, status, id_cliente)
 values
 ('2026-07-01', 'Pendente', 1),
@@ -38,7 +36,7 @@ values
 ('2026-07-03', 'Enviado', 3),
 ('2026-07-04', 'Entregue', 4);
 
-select * from pedido_produto;
+
 insert into pedido_produto (id_pedido, id_produto, quantidade, preco_unitario)
 values
 (1, 1, 2, 50.00),
