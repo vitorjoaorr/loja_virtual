@@ -11,8 +11,8 @@ inserção de dados e consultas SQL
 3. Abra um cliente de banco de dados compatível com PostgreSQL, como:
    - DBeaver
    - pgAdmin
-3. Faça uma conexção com postgres, selecione ou crie um novo banco de dados
-4. Em arquivo, localize a pasta clonada abra os scripts e execute em ordem:
+3. Faça uma conexção com Postgres, selecione ou crie um novo banco de dados
+4. Em arquivo, localize a pasta clonada, abra os scripts e execute em ordem:
    - criacao_tabelas
    - populando_tabelas
    - consulta
