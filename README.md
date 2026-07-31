@@ -7,7 +7,7 @@ inserção de dados e consultas SQL
 
 ## Como executar o projeto
 1. git clone https://github.com/vitorjoaorr/loja_virtual.git
-   *ou copie os codigos dos scripts
+   * ou copie os codigos dos scripts
 3. Abra um cliente de banco de dados compatível com PostgreSQL, como:
   - DBeaver
   - pgAdmin
