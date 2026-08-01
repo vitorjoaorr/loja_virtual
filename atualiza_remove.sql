@@ -2,10 +2,10 @@
 update pedido
 set status = 'Pago'
 where id_pedido = 1;
---obs: sem o where o status de todos os itens iram ser modificados para "pago"
+-- sem o where, todos os pedidos teriam o status alterado para "Pago"
 
 
--- excluir o cliente pedro (o que tem null)
+-- exclui o cliente Pedro (cliente sem pedido associado)
 delete from cliente
 where id_cliente = 5;
--- sem where ira apagar o registro de todos os clientes
+-- sem o where, todos os clientes seriam excluídos
