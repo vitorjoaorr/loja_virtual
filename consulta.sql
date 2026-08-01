@@ -4,7 +4,7 @@ from produto
 where preco > 100;
 
 
---2 buscar cliente
+--2 busca utilizando ilike
 select nome_cliente
 from cliente
 where nome_cliente ilike 'joão';
