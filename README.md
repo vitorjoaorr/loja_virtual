@@ -3,7 +3,7 @@
    Projeto de banco de dados desenvolvido para modelar e implementar uma loja virtual utilizando PostgreSQL.
 
    O objetivo do projeto é aplicar conceitos de modelagem de dados, criação de tabelas, relacionamentos,
-   inserção de dados e consultas SQL.
+   inserção de dados, atualização e consultas SQL.
 
 ## Detalhes e regras de negócio
 - O projeto consiste em uma loja virtual composta por cinco entidades principais: Cliente, Pedido, Produto, Categoria e Pedido_Produto.
