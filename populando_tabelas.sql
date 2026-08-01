@@ -10,7 +10,7 @@ values
 ('Games');
 
 
-insert into produto (nome, descricao, preco, estoque, id_categoria)
+insert into produto (nome_produto, descricao, preco, estoque, id_categoria)
 values
 ('Regador', 'Regador tamanho unico para jardinagem', 50.00, 10, 1),
 ('Mouse', 'Mouse sem fio', 120.00, 50, 2),
