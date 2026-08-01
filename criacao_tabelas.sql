@@ -13,7 +13,7 @@ create table produto(
 	nome_produto varchar (100) not null,
 	descricao text,
 	preco numeric(10,2) not null check (preco >=0),
-	estoque int not null check (preco >=0),
+	estoque int not null check (estoque >=0),
 	id_categoria int not null,
 	foreign key (id_categoria) references categoria(id_categoria)
 );
