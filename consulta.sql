@@ -71,7 +71,7 @@ from produto
 where preco > (select media from media_produtos);
 
 
---10 cria um rank e organiza do produto mais caro ao mais barato
+--10 cria um ranking de preços do maior para o menor utilizando window function
 select nome_produto, preco,
 rank() over (order by preco desc) as ranking_preco
 from produto;
