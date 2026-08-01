@@ -21,7 +21,7 @@ create table produto(
 create table cliente(
 	id_cliente serial primary key,
 	nome_cliente varchar(100) not null,
-	email varchar(100) not null,
+	email varchar(100) not null unique,
 	telefone varchar(20)
 );
 
